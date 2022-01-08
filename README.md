@@ -11,5 +11,3 @@
 [4. Quiz](https://www.notion.so/4-Quiz-46ee27c74c00436db6368b3855ee7dbc)
 
 [5. Blog Post](https://www.notion.so/5-Blog-Post-46d74c84a63c4e628739cc8a4fa7898f)
-
-:calendar:
