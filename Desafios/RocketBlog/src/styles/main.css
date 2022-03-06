@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--purple-bg);
+}
+
+figcaption {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+h3 {
+    color: var(--purple-bg);
+    font-family: 'Poppins';
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+#cotent-post {
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    padding-top: 8px;
+}
+
+.main-post3 {
+    padding-top: 48px;
+}
+
+.main-post figure {
+    padding-bottom: 16px;
+}
+
+.legend {
+    padding-top: 16px;
+}
+
+.post-title {
+    padding-bottom: 16px;
+}
+
+.main-post4 {
+    margin: 64px 0 68px 134px;
+}
+.main-post6 {
+    margin-right: 137px;
+}

@@ -1,0 +1,130 @@
+/* Cotnent Navbar */
+
+@media screen and (min-width: 1920px) {
+    header {
+        padding: 44px 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-content ul {
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+    }
+    
+    .navbar-content li {
+        padding: 0 21px;
+        font-size: 24px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .navbar-content li a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .navbar-content li a:hover {
+        color: var(--button-bg);
+        text-decoration: underline;
+        transition: 0.25s ease-out;
+    }
+    
+    .input-container {
+        display: flex;
+        width: 370px;
+    }
+
+    .input-container input{
+        background: var(--dark-bg);
+        color: #FFFFFF;
+        font-size: 18px;
+        padding-left: 16px;
+        height: 55px;
+        width: 100%;
+        outline: none;
+    }
+
+    .input-field:focus {
+        border: 2px solid #8A9BC2;
+    }
+    
+    .input-container img {
+        background: var(--button-bg);
+        color: white;
+        min-width: 50px;
+        padding: 10px;
+    }
+
+    .input-container img:hover {
+        cursor: pointer;
+    } 
+    
+    h2 {
+        font-family: Poppins;
+        color: var(--button-bg);
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 54px;
+        cursor: pointer;
+    }
+    
+    .content-paragraph {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    
+    }
+    
+    .link-content {
+        color: var(--button-bg);
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-decoration: none;
+    }
+
+    .link-content:hover {
+        text-decoration: underline;
+        transition: 0.25s ease-out;
+    }
+    
+    .link-content img {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 12px;
+    }
+    
+    .test {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 63px
+    }
+
+    .container-feature__image {
+        padding-right: 147px;
+        padding-top: 85px;
+    }
+
+    .container-content__blog {
+        margin-left: 156px;
+        margin-top: 40px;
+    }
+
+    /* Content Main */
+    .container-post__blog {
+        margin: 60px 130px 0 156px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}

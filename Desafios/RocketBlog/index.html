@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Thiago Santos Tassinari" />
+    <meta name="email" content="devtassinari@gmail.com" />
+    <meta name="description" content="Projeto da trilha Discover da Rocketseat na implementação de um Blog website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketBlog</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div>
+                    <img src="./src/assets/images/logo.svg" alt="Logo da marca">
+                </div>
+                <div class="navbar-content">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="input-container">
+                    <input
+                        class="input-field" 
+                        required 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        minlength="5" maxlength="30"
+                    />
+                    <img src="./src/assets/images/search.svg" alt="Ícone de buscar um blog">
+                </div>
+            </div>
+        </div>
+
+        <div class="test">
+            <div class="container-content__blog">
+                <h2 class="title">
+                    Veja o guia definito para<br> conquistar seus objetivos<br>
+                    como DEV em 2022
+                </h2>
+                <br>
+                <p class="content-paragraph">
+                    Lorem deserunt minim amet aliquip in quis anim. Pariatur deserunt<br>
+                    duis cupidatat ad culpa exercitation anim anim exercitation ut aute
+                    <br>sint ad. Aserunt dolore labore nostrud dolor tempor.
+                </p>
+                <br>
+                <a class="link-content" href="#">Veja mais <img src="./src/assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="container-feature__image">
+                <img src="./src/assets/images/featured-image.png" alt="Icon of arrow-right">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-post__blog">
+            <div class="main-post">
+                <figure>
+                    <img src="./src/assets/images/post-1.png" alt="">
+                    <figcaption class="legend">Março 03, 2022</figcaption>
+                </figure>
+                <h3 class="post-title">Começando no ReactJS em 2022</h3>
+                <p>
+                    Eu irure excepteur laborum eiusmod elit id. Ad in aliqua adipisicing do qui cillum <br> ullamco
+                    mollit nisi laboris quis elit. Tempor dolore
+                    in ad enim qui culpa culpa elit <br> enim enim cupidatat. Ipsum amet Lorem aliquip id pariatur culpa
+                    officia aute <br> dolor laboris deserunt eu mollit.
+                </p>
+            </div>
+
+            <div>
+                <div class="main-post2">
+                    <figcaption class="legend">Março 04, 2022</figcaption>
+                    <h3>Conheça as principais técnicas para <br> conseguir uma vaga internacional <br> em programação
+                    </h3>
+                    <p id="cotent-post">
+                        Eu irure excepteur laborum eiusmod elit id. Ad in aliqua quis adipisic <br>
+                        do qui cillum ullamco mollit nisi laboris elit. Tempor dolore in ad <br>
+                        qui culpa culpa elit enim enim cupidatat.
+                    </p>
+                </div>
+
+                <div class="main-post3">
+                    <figcaption class="legend">Março 04, 2022</figcaption>
+                    <h3>Veja a evolução do Front end na prática</h3>
+                    <p id="cotent-post">
+                        Eu irure excepteur laborum eiusmod elit id. Ad in aliqua adipisicing
+                        do qui cillum <br> ullamco mollit nisi laboris quis elit. Tempor
+                        dolore in ad enim qui culpa culpa elit <br> enim enim cupidatat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="test">
+            <div class="main-post4">
+                <figure>
+                    <img src="./src/assets/images/post-2.png" alt="">
+                    <figcaption class="legend">Março 04, 2022</figcaption>
+                </figure>
+                <h3 class="post-title">10 dicas para conseguir a vaga <br> desejada</h3>
+                <p>
+                    Eu irure excepteur laborum eiusmod elit id. Ad asas<br>
+                    adipisicing do qui cillum ullamco mollit nisi laboris<br>
+                    quis elit.
+                </p>
+            </div>
+            <div class="main-post5">
+                <figure>
+                    <img src="./src/assets/images/post-3.png" alt="">
+                    <figcaption class="legend">Março 04, 2022</figcaption>
+                </figure>
+                <h3 class="post-title">Deixe seu código mais semântico <br> com essas dicas</h3>
+                <p>
+                    Eu irure excepteur laborum eiusmod elit id. Ad asas<br>
+                    adipisicing do qui cillum ullamco mollit nisi laboris<br>
+                    quis elit.
+                </p>
+            </div>
+            <div class="main-post6">
+                <figure>
+                    <img src="./src/assets/images/post-4.png" alt="">
+                    <figcaption class="legend">Março 04, 2022</figcaption>
+                </figure>
+                <h3 class="post-title">Use essas dicas nas suas <br>aplicações mobile</h3>
+                <p>
+                    Eu irure excepteur laborum eiusmod elit id. Ad asas<br>
+                    adipisicing do qui cillum ullamco mollit nisi laboris<br>
+                    quis elit.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
